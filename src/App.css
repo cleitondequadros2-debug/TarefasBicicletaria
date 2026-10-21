@@ -1,0 +1,74 @@
+.pagina {
+  width: 90%;
+  max-width: 700px;
+  margin: 30px auto;
+}
+
+section {
+  margin: 20px 0;
+  padding: 16px;
+  border: 1px solid #dfe6e0;
+  border-radius: 4px;
+  background: white;
+}
+
+h1,
+h2 {
+  color: #263b31;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+input {
+  padding: 9px;
+  border: 1px solid #cbd5cd;
+  border-radius: 4px;
+  font: inherit;
+}
+
+button {
+  margin: 3px;
+  padding: 8px 10px;
+  border: 0;
+  border-radius: 4px;
+  background: #39704b;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2c5b3b;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #dfe6e0;
+  border-radius: 4px;
+}
+
+.detalhes p {
+  margin: 6px 0;
+}
+
+@media (max-width: 480px) {
+  .pagina {
+    width: 95%;
+    margin: 20px auto;
+  }
+}
